@@ -100,9 +100,9 @@ The maven plugin provides multiple configuration options.
             <plugin>
                 <groupId>com.github.StephenOTT</groupId>
                 <artifactId>camunda-deployment-maven-plugin</artifactId>
-                <version>v0.5</version>
+                <version>v0.7</version>
                 <configuration>
-                    <host>http://localhost:8081</host>
+                    <host>http://localhost:8080</host>
                     <apiPath>/engine-rest</apiPath>
                     <deploymentFilesDir>${project.build.directory}/deploymentFiles</deploymentFilesDir>
                     <scriptPath>scripts/myScript.groovy</scriptPath>  <!-- Path is relative to pom.xml unless full path is provided-->
